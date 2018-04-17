@@ -19,31 +19,14 @@ public class Game2048 extends AppCompatActivity {
         setContentView(R.layout.activity_game2048);
     }
 
-    @Override
-    public void onWindowFocusChanged(boolean hasFocus) {
-        super.onWindowFocusChanged(hasFocus);
-
-        globalLayout = findViewById(R.id.globalLO);
-        scoreLayout = findViewById(R.id.scoreLO);
-        boardLayout = findViewById(R.id.boardLO);
-        controlLayout = findViewById(R.id.controlLO);
-
-        float Hauteur =(float)globalLayout.getHeight();
-        float largeur = (float)globalLayout.getWidth();
-
-        float weight = 100*largeur/Hauteur;
-
-        float weightScore = (float)0.25*(100-weight);
-        float weightControl = (float)0.75*(100-weight);
-
-        //récuperer les layouts parameters
-        RelativeLayout.LayoutParams scoreParams = (RelativeLayout.LayoutParams) scoreLayout.getLayoutParams();
-        RelativeLayout.LayoutParams controlParams = (RelativeLayout.LayoutParams) scoreLayout.getLayoutParams();
+    //exercice 16 onWindowsFocusChanged remplacé par l'utilisation de la class Dynamique SquareLayout
 
 
 
 
 
 
-    }
+
+
+
 }

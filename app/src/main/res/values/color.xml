@@ -4,4 +4,5 @@
     <color name="score">#0097A7</color>
     <color name="board">#00ACC1</color>
     <color name="control">#4DD0E1</color>
+    <color name="colBoard">#ffffff</color>
 </resources>

@@ -4,7 +4,7 @@ import android.content.Context;
 import android.util.AttributeSet;
 import android.widget.RelativeLayout;
 
-//Replace RelativeLayout with any layout of your choice
+//http://www.gadgetsaint.com/tips/dynamic-square-rectangular-layouts-android/#.WtZIf4huaUl
 public class DynamicSquareLayout  extends RelativeLayout {
 
     public DynamicSquareLayout(Context context) {
