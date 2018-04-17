@@ -21,14 +21,14 @@
 
     </RelativeLayout>
 
-    <RelativeLayout
+    <lecnam.nfa024.akassard.my2048.DynamicSquareLayout
         android:layout_width="match_parent"
         android:layout_height="0dp"
         android:layout_weight="60"
         android:id="@+id/boardLO"
         android:background="@color/board">
 
-    </RelativeLayout>
+    </lecnam.nfa024.akassard.my2048.DynamicSquareLayout>
 
     <RelativeLayout
         android:layout_width="match_parent"

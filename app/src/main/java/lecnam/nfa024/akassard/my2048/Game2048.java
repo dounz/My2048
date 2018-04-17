@@ -41,7 +41,7 @@ public class Game2048 extends AppCompatActivity {
         RelativeLayout.LayoutParams controlParams = (RelativeLayout.LayoutParams) scoreLayout.getLayoutParams();
 
 
-        scoreLayout.setLayoutParams(scoreParams);
+
 
 
 
